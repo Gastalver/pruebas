@@ -8,7 +8,7 @@ describe('Pruebas de strings', () => {
     expect( typeof respuesta ).toBe('string');
   });
   // Comprobar que el resultado CONTENGA ALGO.
-  it('Debe retornar un saludo con el nombre enviado', () => {
+  xit('Debe retornar un saludo con el nombre enviado', () => {
     const nombre = 'Miguel'
     const respuesta = mensaje(nombre);
     expect( respuesta ).toContain(nombre);

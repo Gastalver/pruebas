@@ -1,6 +1,7 @@
 import { obtenerRobots} from './array';
 
-describe('Pruebas de arrays', () => {
+// Ejemplo de como desactivar temporalmente las pruebas. Colocar una x delante de describe o de it.
+xdescribe('Pruebas de arrays', () => {
   // Comprobar que el array tiene un mínimo de elementos
   it ('Debe devolver un array con tres items', () => {
     const resultado = obtenerRobots();
